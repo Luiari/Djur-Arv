@@ -31,8 +31,8 @@ namespace Djur_Arv
        ///
         public Dog() 
         {
-            this.Name = "Hunden har inget namn än";
-            this.Eater = "Kan vara allergisk mot foder";
+            this.Name = Name;
+            this.Eater = Eater;
             
         }
         ///

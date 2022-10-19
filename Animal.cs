@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Antonio Ariza Gomez .NET22
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -16,9 +18,9 @@ namespace Djur_Arv
         int kg;
 
 
-       public  Animal(string animal, string Name, string Eater, string Sound, bool Tame,int age)
+       public  Animal(string animal, string Name, string Eater, string Sound, bool Tame,int age) //Constructor
         {
-            this.animal = animal;
+            
             this.Name = Name;
             this.Eater = Eater;
             this.Sound = Sound;
@@ -29,11 +31,14 @@ namespace Djur_Arv
 
         }
         
-        public Animal()//Defaultvärden
+        public Animal()//Defaultvärden i basklassen
         {
-            this.Name = "A big animal";
-            this.age = 75;
+            this.Name = "Inget Namn";
+            this.age = 0;
             this.Tame = false;
+            this.animal = "Oidentifierat";
+            this.Sound = "Inget ljud";
+            this.kg = 0;
         }
        //////////////////////////////
         public void Hungry()

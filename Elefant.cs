@@ -23,6 +23,12 @@ namespace Djur_Arv
             this.Tame = Tame;
             this.kg = kg;
         }
+        public Elefant() 
+        {
+            this.animal = animal;
+            this.Name = Name;
+            this.Eater = Eater;
+        }
 
 
             public void kilogram()

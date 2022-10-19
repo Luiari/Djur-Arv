@@ -23,8 +23,8 @@ namespace Djur_Arv
         }
         public Panda()
         {
-            this.Age = 0;
-            this.Name = "Alfons";
+            this.Age = Age;
+            this.Name = Name;
                
         }
 
